@@ -18,7 +18,7 @@ namespace SimpleObserverPattern
 
          public void Notify()
          {
-             Console.WriteLine("Opgave Modtaget af {0}", _name);
+             Console.WriteLine("Opgave Sendt af {0} & Modtaget af {1}", Teacher._name, _name);
          }
 
        

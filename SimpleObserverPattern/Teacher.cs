@@ -10,7 +10,7 @@ namespace SimpleObserverPattern
     {
         private static List<INotify> _ObserverList = new List<INotify>();
 
-        public string _name;
+        public static string _name;
         public Teacher(string name)
         {
             _name = name;
