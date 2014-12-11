@@ -21,10 +21,10 @@ namespace SimpleObserverPattern
             Console.ReadLine();
             Console.WriteLine();
             Student Bob = new Student("Bob");
-
+            Ebbe.AddObserver(Bob);
             Ebbe.GiveOrder("Så er det tid til julemusik!");
 
-            Ebbe.AddObserver(Bob);
+            
             Console.ReadLine();
             Console.WriteLine();
 
