@@ -1,0 +1,6 @@
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\bin\Debug\SimpleObserverPattern.exe.config
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\bin\Debug\SimpleObserverPattern.exe
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\bin\Debug\SimpleObserverPattern.pdb
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\obj\Debug\SimpleObserverPattern.csprojResolveAssemblyReference.cache
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\obj\Debug\SimpleObserverPattern.exe
+C:\Users\Delfs\Documents\Projekter\SimpleObserverPattern\SimpleObserverPattern\obj\Debug\SimpleObserverPattern.pdb
