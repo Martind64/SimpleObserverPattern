@@ -12,19 +12,23 @@ namespace SimpleObserverPattern
         {
             Student Martin = new Student("Martin");
 
-            Teacher teacher = new Teacher("Ebbe");
+            Teacher Ebbe = new Teacher("Ebbe");
 
-            
-            teacher.AddObserver(Martin);
+           
+            Ebbe.AddObserver(Martin);
+            Ebbe.GiveOrder("Do your homework");
+
             Console.ReadLine();
             Console.WriteLine();
             Student Bob = new Student("Bob");
 
-            teacher.AddObserver(Bob);
+            Ebbe.GiveOrder("Så er det tid til julemusik!");
+
+            Ebbe.AddObserver(Bob);
             Console.ReadLine();
             Console.WriteLine();
 
-            teacher.RemoveObserver(Bob);
+            Ebbe.RemoveObserver(Bob);
             Console.ReadLine();
 
         }

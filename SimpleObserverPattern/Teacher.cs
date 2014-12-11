@@ -10,7 +10,15 @@ namespace SimpleObserverPattern
     {
         private static List<INotify> _ObserverList = new List<INotify>();
 
-        public static string _name;
+        public string _name;
+        private static string _order;
+
+        public static string Order
+        {
+            get { return _order; }
+            set { _order = value; }
+        }
+      
         public Teacher(string name)
         {
             _name = name;
@@ -19,17 +27,20 @@ namespace SimpleObserverPattern
         public void AddObserver(INotify observer)
         {
             _ObserverList.Add(observer);
-
-            foreach (var s in _ObserverList)
-            {
-                s.Notify();
-            }
+            
         }
 
         public void RemoveObserver(INotify observer)
         {
             _ObserverList.Remove(observer);
 
+            
+        }
+
+
+        public void GiveOrder(string order)
+        {
+            _order = order;
             foreach (var s in _ObserverList)
             {
                 s.Notify();

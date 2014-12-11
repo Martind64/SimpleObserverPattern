@@ -18,8 +18,10 @@ namespace SimpleObserverPattern
 
          public void Notify()
          {
-             Console.WriteLine("Opgave Sendt af {0} & Modtaget af {1}", Teacher._name, _name);
+             Console.WriteLine("Order given to {0}: {1}", _name, Teacher.Order);
          }
+
+
 
        
     }
